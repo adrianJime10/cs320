@@ -1,0 +1,11 @@
+Run make
+
+Run executable by calling ./prog3 to see percentage values and to create csv files
+
+Run -- gnuplot -e "title='sample'" -e "input_filename='sample_data.csv'" plot_hit_rates.plt > noLocal.png -- to make the no locality graph
+
+Run -- gnuplot -e "title='sample'" -e "input_filename='sample_data.csv'" plot_hit_rates.plt > eightytwenty.png -- to make the 80-20 graph
+
+Run -- gnuplot -e "title='sample'" -e "input_filename='sample_data.csv'" plot_hit_rates.plt > looping.png -- to make the looping graph
+
+Created by Adrian Jimenez and Evan McNierney
